@@ -87,10 +87,10 @@ importers:
       '@sentry/node':
         specifier: ^7.119.1
         version: 7.119.1
-      '@stellarbeat/stellar-history-archive-hasher':
+      '@stellarobserver/stellar-history-archive-hasher':
         specifier: 0.7.0
         version: 0.7.0
-      '@stellarbeat/stellar_analysis_nodejs':
+      '@stellarobserver/stellar_analysis_nodejs':
         specifier: ^0.6.2
         version: 0.6.2
       ajv:
@@ -256,10 +256,10 @@ importers:
       '@sentry/vue':
         specifier: ^8.34.0
         version: 8.34.0(vue@2.7.16)
-      '@stellarbeat/stellar-halting-analysis':
+      '@stellarobserver/stellar-halting-analysis':
         specifier: 1.2.0
         version: 1.2.0
-      '@stellarbeat/stellar_analysis_web':
+      '@stellarobserver/stellar_analysis_web':
         specifier: ^0.7.0
         version: 0.7.0
       bootstrap:
@@ -416,7 +416,7 @@ importers:
 
   apps/history-scanner:
     dependencies:
-      '@stellarbeat/stellar-history-archive-hasher':
+      '@stellarobserver/stellar-history-archive-hasher':
         specifier: 0.7.0
         version: 0.7.0
       ajv:
@@ -1762,16 +1762,16 @@ packages:
   '@stellar/stellar-base@13.0.1':
     resolution: {integrity: sha512-Xbd12mc9Oj/130Tv0URmm3wXG77XMshZtZ2yNCjqX5ZbMD5IYpbBs3DVCteLU/4SLj/Fnmhh1dzhrQXnk4r+pQ==}
 
-  '@stellarbeat/stellar-halting-analysis@1.2.0':
+  '@stellarobserver/stellar-halting-analysis@1.2.0':
     resolution: {integrity: sha512-W/OfQOgIcogIxpwyQ93RTr8Ke55z4/mvqG9UNUdB4AgJLwfgelYFn+RMdmWw4I77koQ3zdw19kuTm6pbg4yUkw==}
 
-  '@stellarbeat/stellar-history-archive-hasher@0.7.0':
+  '@stellarobserver/stellar-history-archive-hasher@0.7.0':
     resolution: {integrity: sha512-lpTmgPAPNwFF2EF7O7yhQ2chFaKK+L6KnSF82jk6PXw5BG/fuXU4awpcdzVvYBLtvWpzGj6tPKY21SgYdgCMkA==}
 
-  '@stellarbeat/stellar_analysis_nodejs@0.6.2':
+  '@stellarobserver/stellar_analysis_nodejs@0.6.2':
     resolution: {integrity: sha512-YHyZ2DvO3Ouyhs3fh3Iq5jHHg4Nc4hjKXmkE9DYp9RCebFYkus8cgDmLb17VH21bE/Z+G6S8eUrG4wVvGlQw3A==}
 
-  '@stellarbeat/stellar_analysis_web@0.7.0':
+  '@stellarobserver/stellar_analysis_web@0.7.0':
     resolution: {integrity: sha512-0ygZnhYHtyQBKHMpwDYclFwT0cvnGg+589AZQC0VcysJG01uPX0Z9PgXFOuDmZO6mfxHrNUASCU/QsyPyINrsA==}
 
   '@swc/core-darwin-arm64@1.7.26':
@@ -6806,13 +6806,13 @@ snapshots:
     optionalDependencies:
       sodium-native: 4.3.3
 
-  '@stellarbeat/stellar-halting-analysis@1.2.0': {}
+  '@stellarobserver/stellar-halting-analysis@1.2.0': {}
 
-  '@stellarbeat/stellar-history-archive-hasher@0.7.0': {}
+  '@stellarobserver/stellar-history-archive-hasher@0.7.0': {}
 
-  '@stellarbeat/stellar_analysis_nodejs@0.6.2': {}
+  '@stellarobserver/stellar_analysis_nodejs@0.6.2': {}
 
-  '@stellarbeat/stellar_analysis_web@0.7.0': {}
+  '@stellarobserver/stellar_analysis_web@0.7.0': {}
 
   '@swc/core-darwin-arm64@1.7.26':
     optional: true

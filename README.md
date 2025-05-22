@@ -1,11 +1,11 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/stellarbeat/stellarbeat/badge.svg)](https://snyk.io/test/github/stellarbeat/stellarbeat)
+[![Known Vulnerabilities](https://snyk.io/test/github/stellarobserver/stellarobserver/badge.svg)](https://snyk.io/test/github/stellarobserver/stellarobserver)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-# Monorepo for Stellarbeat project
+# Monorepo for Stellarobserver project
 
 ## About
 
-Stellarbeat is a monitoring and analytics platform for the Stellar network and
+Stellarobserver is a monitoring and analytics platform for the Stellar network and
 its validators and organizations. It collects and visualizes network data with
 the ability to time-travel, has simulation options, provides REST APIs for
 integration, implements email notifications, scans validator history archives
